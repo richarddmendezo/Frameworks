@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, user-scalable=yes">
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Blog de Música Cristiana</title>
   </head>
   <body class="container">
@@ -23,22 +24,24 @@
     </header>
 
     <!--BARRA DE NAVEGACION-->
-    <nav class="row" style="background-color:gray">
-      <div class="col-lg-2 text-center"><div class="navegacion">Inicio</div></div>
-      <div class="col-lg-2 text-center"><div class="navegacion">Articulos</div></div>
-      <div class="col-lg-2 text-center"><div class="navegacion">Grupos</div></div>
-      <div class="col-lg-2 text-center"><div class="navegacion">TOP 10</div></div>
-      <div class="col-lg-2 text-center"><div class="navegacion">Letras</div></div>
-      <div class="col-lg-2 text-center"><div class="navegacion">Acordes</div></div>
+    <nav class="navbar navbar-expand-lg" style="background-color:gray">
+           <ul class="navbar-nav">
+            <li class="nav-item navegacion"><a class="nav-link" href="#">Inicio</a></li>
+            <li class="nav-item navegacion"><a class="nav-link" href="#">Articulos</a></li>
+            <li class="nav-item navegacion"><a class="nav-link" href="#">Grupos</a></li>
+            <li class="nav-item navegacion"><a class="nav-link" href="#">TOP 10</a></li>
+            <li class="nav-item navegacion"><a class="nav-link" href="#">Letras</a></li>
+            <li class="nav-item navegacion"><a class="nav-link" href="#">Acordes</a></li>
+           </ul>
     </nav>
 
 
-    <!--POST-->
+    <!--POST 1-->
     <section class="row">
       <div class="col-lg-9">
-        <h2>Evan Craft y sus nuevos exitos</h2>
-        <div class="row " style="border: 2px solid">
-          <div class="col-lg-7" style="border: 2px solid">
+        <div class="row">
+          <div class="col-lg-7">
+            <h3>Evan Craft y sus nuevos exitos</h3>
             <p class="post">
             Nativo del sur de California, comenzó a tocar la guitarra con tan sólo 12 años y mostró también una gran habilidad para cantar y componer su propia música. Al acabar la escuela secundaria, ya había llegado a ser altamente competente en el canto, la composición de música e incluso había completado su primer álbum como aficionado, Spotlight.
 
@@ -52,19 +55,108 @@
           <div class="col-lg-5">
             <img src="img/evancraft.jpg" alt="Evan Craft" class="post-img">
           </div>
-          <div class="row">
-            <div class="col-lg-12">
-              <img src="img/perfil.png" alt="Perfil del Usuario" class="img-usuario">
-              <textarea name="Comentario" rows="4" cols="75"></textarea>
+
+
+
+          <div class="col-lg-12">
+             <div class="row">
+              <div class="col-lg-3">
+                <img src="img/perfil.png" alt="Perfil del Usuario" class="img-usuario">
+              </div>
+              <div class="col-lg-9">
+                <textarea name="Comentario" rows="4" cols="75" class="comentarios" placeholder="Comentario..."></textarea>
+              </div>
             </div>
           </div>
+        </div>
 
+    <!--POST 2-->
+        <div class="row ">
+          <div class="col-lg-5">
+            <img src="img/festival.jpg" alt="Evan Craft" class="post-img">
+          </div>
+          <div class="col-lg-7">
+            <h3>Bolivia espera el RadicalFest 2019</h3>
+            <p class="post">
+              El año pasado se anunciaba en medio del concierto de <strong>Redimi2</strong> un avance del gran proyecto que comenzaba a soñar a miles
+              de cristianos en <em>Bolivia</em> sobre el <strong>1ro Festival de Musica Cristiana</strong>, donde años se esperaba tener una gra noche,
+              con los mas conocidos musicos de la movida cristiana, una noche de adoracion al Rey de Reyes y Señor de Señores.
+              <br>
+              <br>
+              <strong>Generacion Radical</strong> es un grupo de personas que organizan eventos en el ambito cristiano, como ellos dicen: <strong><em>"Entretenimiento sano"</em></strong>
+              donde ya años este grupo ha trabajado y ha traido a grandes artistas y predicadores hasta la fecha:
+
+              <ul>
+                <li>Barak</li>
+                <li>En Espiritu y En Verdad</li>
+                <li>Redimi2</li>
+                <li><abbr title="Pastor">Pr.</abbr>Dante Gebel</li>
+                <li>Funky</li>
+              </ul>
+              Este <strong>1-5-6 de Septiembre</strong> sera el gran evento, 3 dias de pura adoracion con grandes artistas.
+              Han confirmado la asistencia de <strong>Evan Craft, Kike Pavon, Alex Zurdo, Dj PV, Barak y Inmerso</strong>
+              <br>
+              <br>
+              Muy pronto estaran disponibles las entradas preventas para los 3 dias. Esten atentos estos dias que sorteare algunas.
+          </p>
+          </div>
+
+          <div class="col-lg-12">
+             <div class="row">
+              <div class="col-lg-3">
+                <img src="img/perfil.png" alt="Perfil del Usuario" class="img-usuario">
+              </div>
+              <div class="col-lg-9">
+                <textarea name="Comentario" rows="4" cols="75" class="comentarios" placeholder="Comentario..."></textarea>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
-
       <!--BARRA DE BUSQUEDA-->
-      <div class="col-lg-3">asd</div>
+      <div class="col-lg-3 d-none d-sm-block" style="border: 1px solid gray">
+        <div class="row">
+          <div class="col-lg-2" style="margin-top:10px;">
+            <a href="buscar"><i class="material-icons">search</i></a>
+          </div>
+          <div class="col-lg-10">
+            <textarea name="busqueda" rows="1" cols="80" class="comentarios" placeholder="Buscar..."></textarea>
+          </div>
+        </div>
+
+        <!--LISTA DE PALABRAS DE BUSQUEDA-->
+          <div class="row palabras-clave"><div class="col-lg-12">FESTIVAL</div></div>
+          <div class="row palabras-clave"><div class="col-lg-12">ULTIMOS LANZAMIENTOS</div></div>
+          <div class="row palabras-clave"><div class="col-lg-12">DJ PV</div></div>
+          <div class="row palabras-clave"><div class="col-lg-12">EVAN CRAFT</div></div>
+          <div class="row palabras-clave"><div class="col-lg-12">DANILO MONTERO</div></div>
+          <div class="row palabras-clave"><div class="col-lg-12">MARCOS BARRIENTOS</div></div>
+          <div class="row palabras-clave"><div class="col-lg-12">ADORACION</div></div>
+          <div class="row palabras-clave"><div class="col-lg-12">ENTRADAS</div></div>
+          <div class="row palabras-clave"><div class="col-lg-12">EVENTOS</div></div>
+          <div class="row palabras-clave"><div class="col-lg-12">BARAK</div></div>
+          <div class="row palabras-clave"><div class="col-lg-12">REDIMI2</div></div>
+          <div class="row palabras-clave"><div class="col-lg-12">JUAN DE MONTREAL</div></div>
+          <div class="row palabras-clave"><div class="col-lg-12">KIKE PAVON</div></div>
+          <div class="row palabras-clave"><div class="col-lg-12">CALEB VILLARROEL</div></div>
+          <div class="row palabras-clave"><div class="col-lg-12">MARCOS BRUNET</div></div>
+          <div class="row palabras-clave"><div class="col-lg-12">EN ESPIRITU Y EN VERDAD</div></div>
+          <div class="row palabras-clave"><div class="col-lg-12">ALABANZAS</div></div>
+          <div class="row palabras-clave"><div class="col-lg-12">DANIEL CALVETI</div></div>
+          <div class="row palabras-clave"><div class="col-lg-12">JESUS ADRIAN ROMERO</div></div>
+          <div class="row palabras-clave"><div class="col-lg-12">ALEX CAMPOS</div></div>
+          <div class="row palabras-clave"><div class="col-lg-12">FUNKY</div></div>
+          <div class="row palabras-clave"><div class="col-lg-12">MARCOS WITT</div></div>
+
+
+
+
+        </div>
+
+
+
+      </div>
     </section>
     <footer></footer>
   </body>
