@@ -1,12 +1,20 @@
 .redes-sociales{
-  height: 50px;
-  width: 60px;
+  width: 17%;
+  height: 28%;
   margin-top: 7.5rem;
+}
+.barra{
+  min-height: 20px;
+}
+#nave{
+  width: 100%;
+}
+.nav-item{
+  width: 17%;
+  text-align: center;
 }
 .navegacion{
   background-color: #78CCA4;
-  padding-left: 80px;
-  padding-right: 30px;
 }
 .post{
   font-size: 0.9rem;
@@ -15,9 +23,15 @@
   margin-top: 15px;
   width:100%;
 }
-.img-usuario{
+.img-usuario-der{
   width: 60%;
   margin-left: 30px;
+  margin-top: 0px;
+}
+.img-usuario-izq{
+  width: 60%;
+  margin-left: 30px;
+  margin-top: 8px;
 }
 .comentarios{
   margin-top: 5px;
@@ -27,4 +41,13 @@
 .palabras-clave{
   border-top: 1px solid gray;
   border-bottom: 1px solid gray;
+}
+@media screen and (max-width:767px) {
+  .img-usuario-der{
+    margin-top: 15px;
+  }
+  .post-img{
+    width: 70%;
+    height: 370px;
+  }
 }
