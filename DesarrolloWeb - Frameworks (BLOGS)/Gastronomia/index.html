@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TuComilona</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="foundation-icons/foundation-icons.css" media="screen" charset="utf-8">
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <body>
+
+    <!--ENCABEZADO-->
+    <div class="grid-x hide-for-small-only">
+      <div class="cells medium-4 large-3 lineado medium-offset-1 large-offset-1 fondo-header lineado-header">
+        <header>
+          <h3>TuComilona</h3>
+        </header>
+        <p class="float-right"><em>¡Escoge el plato para comer!</em></p>
+      </div>
+      <div class="cells small-12 medium-5 large-7 fondo-header" style="border-bottom: 1px dashed white"></div>
+    </div>
+    <div class="grid-x hide-for-small-only">
+      <div class="cells medium-9 large-10 medium-offset-1 large-offset-1 fondo-header" style="min-height:20px; border-bottom: 1px solid black"></div>
+    </div>
+
+
+    <!--CUERPO-->
+    <div class="grid-x">
+      <div class="cells small-12 medium-3 large-3 medium-offset-1 large-offset-1 fondo lineado-cuerpo">
+
+        <!--BUSCADOR-->
+        <div class="cells hide-for-small-only medium-2 large-3">
+          <div class="grid-x">
+            <div class="cells medium-3 large-2">
+              <a><i class="step fi-magnifying-glass" style="font-size:1.5em; margin-left:15px; color:black;"></i></a>
+            </div>
+            <div class="cells medium-7 large-9">
+              <label>
+                <input type="text" placeholder="Buscar...">
+              </label>
+            </div>
+          </div>
+        </div>
+        <nav class="hide-for-small-only">
+          <div class="cells large-12"><button type="submit" name="Inicio" class="button alert float-center btn-nav"><i class="step fi-home"></i> Inicio</button></div>
+          <div class="cells large-12"><button type="submit" name="Plato-perfecto" class="button alert float-center btn-nav"><i class="step fi-like"></i> Mi plato perfecto</button></div>
+          <div class="cells large-12"><button type="submit" name="Recetas" class="button alert float-center btn-nav"><i class="step fi-book"></i> Mis Recetas</button></div>
+          <div class="cells large-12"style="min-height:10px;"></div>
+          <div class="cells hide-for-medium-only large-12"><i class="step fi-heart"></i><strong>  Favoritos:</strong></div>
+        </nav>
+          <!--FOTOS-->
+          <div class="cells large-12 hide-for-medium-only hide-for-small-only">
+            <div class="grid-x">
+              <div class="cells large-4"><img src="img/bife.jpg" alt="Bife de Chorizo" class="thumbnail"></div>
+              <div class="cells large-4"><img src="img/falso-conejo.jpg" alt="Falso Conejo" class="thumbnail"></div>
+              <div class="cells large-4"><img src="img/locro.jpg" alt="Locro" class="thumbnail"></div>
+            </div>
+            <div class="grid-x">
+              <div class="cells large-4"><img src="img/picante.jpg" alt="Picante de Pollo" class="thumbnail"></div>
+              <div class="cells large-4"><img src="img/rapi.JPG" alt="Rapi al Jugo" class="thumbnail"></div>
+              <div class="cells large-4"><img src="img/salpicon.jpg" alt="Salpicon" class="thumbnail"></div>
+            </div>
+          </div>
+
+          <!--HISTORIAL-->
+          <div class="cells medium-12 large-12 hide-for-small-only">
+            <h5>HISTORIAL:</h5>
+            <div class="cells large-12 historial">Majadito</div>
+            <div class="cells large-12 historial">Rapi al Jugo</div>
+            <div class="cells large-12 historial">Picante de Pollo</div>
+            <div class="cells large-12 historial">Keperi</div>
+            <div class="cells large-12 historial">Falso Conejo</div>
+            <div class="cells large-12 historial">Salpicon</div>
+            <div class="cells large-12 historial">Locro</div>
+            <div class="cells large-12 historial">Bife de Chorizo</div>
+          </div>
+      </div>
+
+      <div class="cells hide-for-small-only large-1 fondo-header" style="width:10px"></div>
+      <!--ARTICULOS-->
+
+      <div class="cells small-12 medium-6 large-7 fondo lineado-cuerpo" style="border: 3px solid black;">
+        <div class="grid-x">
+          <div class="cells small-12 large-12"><h4><strong>Receta de Majadito</strong></h4></div>
+          <div class="cells small-12 large-12"><h5>Fecha de Entrega:<strong> 24/07/2019</strong></h5></div>
+          <div class="cells small-10 medium-8 large-10 float-center">
+            <img src="img/majadito.jpg" alt="Majadito" class="thumbnail">
+          </div>
+          <div class="cells small-12 large-12" style="border-bottom: 2px ridge grey">
+            <p> <em>El majadito Boliviano </em>es uno de los platos mas conocidos de la nacion, en todas las regiones de Bolivia
+              se prepara este exquisito plato.
+              <br>
+              Yo desde niño me lo cocinaba mi abuela y mi madre, era bien famoso en mi casa, el mas esperado entre mis hermanos.
+              Hoy dia les dejare la receta para que puedan prepararlo y que sus palares puedan disfrutar como yo lo he hecho.
+            </p>
+          </div>
+          <strong>Escribe un comentario:</strong>
+          <div class="cells small-10 large-8 small-offset-1 large-offset-2 fondo">
+            <textarea name="Comentario" rows="5" cols="80"></textarea>
+          </div>
+          <div class="cells small-11 large-11 lineado"><button type="submit" name="Recetas" class="button alert float-right"><i class="step fi-pencil"></i> Enviar</button></div>
+          </div>
+
+          <div class="cells small-12 large-12" style="border: 1px solid grey; margin-left:10px;">
+            <div class="grid-x">
+              <div class="cells small-3 large-2">
+                <img src="img/usuario-mujer.jpg" alt="Usuario" id="Usuario" class="float-center">
+              </div>
+              <div class="cells small-9 large-9">
+                <p class="comentario"><strong>mystiqa099: </strong> <em>"A mi me gusta mas el majadito batido que el seco, le siento otro sabor mas rico".</em></p>
+              </div>
+            </div>
+          </div>
+          <div class="cells small-12 large-12" style="border: 1px solid grey; margin-left:10px;">
+            <div class="grid-x">
+              <div class="cells small-3 large-2">
+                <img src="img/usuario-hombre.jpg" alt="Usuario" id="Usuario" class="float-center">
+              </div>
+              <div class="cells small-9 large-9">
+                <p class="comentario"><strong>L4C4: </strong> <em>"Es tan raro comer solo arroz y carne de charque picada no?".</em></p>
+              </div>
+            </div>
+          </div>
+          <div class="cells small-12 large-12" style="border: 1px solid grey; margin-left:10px;">
+            <div class="grid-x">
+              <div class="cells small-3 large-2">
+                <img src="img/usuario-mujer.jpg" alt="Usuario" id="Usuario" class="float-center">
+              </div>
+              <div class="cells small-9 large-9">
+                <p class="comentario"><strong>princesita2008: </strong> <em>"cuandO SUB3S M4s rec3t4s?".</em></p>
+              </div>
+            </div>
+          </div>
+          <div class="cells" style="min-height:30px;"></div>
+
+          <!--ARTICULO 2-->
+          <div class="cells small-12 medium-3 large-7">
+            <div class="grid-x">
+              <div class="cells small-12 large-12"><h4><strong>Receta de Keperi</strong></h4></div>
+              <div class="cells small-12 large-12"><h5>Fecha de Entrega:<strong> 18/07/2019</strong></h5></div>
+              <div class="cells small-10 medium-8 large-10 float-center">
+                <img src="img/keperi.jpg" alt="Keperi al Horno" class="thumbnail">
+              </div>
+              <div class="cells small-12 large-12" style="border-bottom: 2px ridge grey">
+                <p>Keperi al horno es tan complicado preparlo, porque se necesitara de 2 dias de preparacion, el 1° dia hay
+                  que dejar ablandar la carne en su jugo que debe uno preparar. Ya el 2° dia es la preparacion completa del plato.
+                  <br>
+                  <br>
+                  Aqui en Bolivia, precisamente en <strong>Santa Cruz de la Sierra</strong> hay un restaurant que se especializa en este plato.
+                  Es el <em>Restaurant Don Celso</em> donde siempre he comido, porque comer esa carne que ellos preparan, practicamente se derrite,
+                  cuando uno lo tiene en su boca. <strong>¡LOS ANIMO A IR A PROBARLO! </strong>Aqui les dejo la receta.
+                </p>
+              </div>
+              <strong>Escribe un comentario:</strong>
+              <div class="cells small-10 large-8 small-offset-1 large-offset-2 fondo">
+                <textarea name="Comentario" rows="5" cols="80"></textarea>
+              </div>
+              <div class="cells small-11 large-11"><button type="submit" name="Recetas" class="button alert float-right"><i class="step fi-pencil"></i> Enviar</button></div>
+              </div>
+
+              <!--HISTORIAL DE COMENTARIOS-->
+              <div class="cells small-12 large-12" style="border: 1px solid grey; margin-left:10px;">
+                <div class="grid-x">
+                  <div class="cells0 small-3 large-2">
+                    <img src="img/usuario-mujer.jpg" alt="Usuario" id="Usuario" class="float-center">
+                  </div>
+                  <div class="cells small-9 large-9">
+                    <p class="comentario"><strong>Daniela.13: </strong> <em>"El otro dia en mi casa cocinaron keperi y no sabes como me encanto. GRACIAS POR LA RECETA".</em></p>
+                  </div>
+                </div>
+              </div>
+              <div class="cells small-12 large-12" style="border: 1px solid grey; margin-left:10px;">
+                <div class="grid-x">
+                  <div class="cells small-3 large-2">
+                    <img src="img/usuario-hombre.jpg" alt="Usuario" id="Usuario" class="float-center">
+                  </div>
+                  <div class="cells small-9 large-9">
+                    <p class="comentario"><strong>taliban.12: </strong> <em>"UYYYY que buen plato, tenes razon se deshace en tu boca".</em></p>
+                  </div>
+                </div>
+              </div>
+              <div class="cells small- 12 large-12" style="border: 1px solid grey; margin-left:10px;">
+                <div class="grid-x">
+                  <div class="cells small-3 large-2">
+                    <img src="img/usuario-hombre.jpg" alt="Usuario" id="Usuario" class="float-center">
+                  </div>
+                  <div class="cells small-9 large-9">
+                    <p class="comentario"><strong>thonkas3118: </strong> <em>"mE ENCanta tu blog".</em></p>
+                  </div>
+                </div>
+              </div>
+              <div class="cells" style="min-height:30px;"></div>
+
+
+              </div>
+      </div>
+      </div>
+    </div>
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

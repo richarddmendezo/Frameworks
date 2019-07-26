@@ -1,0 +1,41 @@
+body{
+  background-image: url('../img/santacruz.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+.lineado-header{
+  border-bottom: 1px dashed white;
+  border-right: 1px dashed white;
+  padding: 2px;
+}
+.fondo-header{
+  background:rgba(33,47,60,0.90);
+  color: white;
+}
+.fondo{
+  background-color: #F0F3F4;
+}
+.historial{
+  color: #DC7633;
+  font-family:fantasy;
+  font-size: 1.3em;
+  margin-left: 30px;
+}
+.lineado-cuerpo{
+  border-top: 3px solid black;
+}
+#Usuario{
+ width: 70%;
+ border-radius: 150px;
+ margin-bottom: 20px;
+}
+.comentario{
+  font-size: 1.3em;
+}
+.btn-nav{
+  width: 90%;
+}
+@media screen and (min-width:400px) {
+  
+}
