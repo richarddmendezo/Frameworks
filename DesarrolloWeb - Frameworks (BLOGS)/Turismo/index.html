@@ -4,36 +4,181 @@
     <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1.0"/>
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link rel="stylesheet" href="foundation-icons/foundation-icons.css" media="screen" charset="utf-8">
       <link rel="stylesheet" href="css/materialize.css" type="text/css" media="screen, projection"/>
       <link rel="stylesheet" href="css/estilos.css">
     <title>Turismo Santa Cruz</title>
   </head>
-  <body class="indigo lighten-4">
+  <body>
     <div class="row">
 
-      <!--NAVEGACION-->
+      <!--NAVEGACION Y LOGO-->
       <header class="indigo darken-4" style="height:200px;">
         <div class="row">
-          <div class="col l3 left-align">
+          <div class="col s6 l3 left-align">
             <img src="img/logo.jpg" alt="Logo del Blog" class="circle responsive-img" id="logo">
           </div>
-          <div class="col l7 offset-l2 right-align navegacion">
+          <div class="col s6 l7 offset-l2 right-align navegacion nav-fixed nav-wraper">
               <a href="#" class="btn teal waves-effect">INICIO</a>
               <a href="#" class="btn teal waves-effect">ESTUVE AQUÍ</a>
               <a href="#" class="btn teal waves-effect">MEJORES VIAJES</a>
-              <a href="#" class="btn teal waves-effect">RECOMENDACIONES</a>
+              <a href="#" class="btn teal waves-effect hide-on-small-only hide-on-med-only">RECOMENDACIONES</a>
           </div>
         </div>
       </header>
 
+      <!--REDES SOCIALES-->
+        <div class="content fondo">
+        <div class="col l12 black-text " style="height:500px;">
+            <div class="row">
+              <div class="col s12 white-text">
+                <h3 class="center-align" style="margin-top:-130px; margin-left:-170px;">Creando mi propio camino</h3>
+              </div>
+            </div>
+          <div class="col hide-on-small-only m1 l1 valign-wrapper">
+          <div class="row">
+            <div class="col s12" style="background:blue;"><a href="https://www.facebook.com/Icha13"><i class="step fi-social-facebook" style="font-size:5.5em; margin-left:10px; color:white;"></i></a></div>
+            <div class="col s12"style="background:brown;"><a href="https://www.instagram.com/richarddmendezo/"><i class="step fi-social-instagram" style="font-size:5.5em; margin-left:10px; color:white;"></i></a></div>
+            <div class="col s12" style="background:red;"><a href="https://www.youtube.com/channel/UCiRGW4X9U_2xgvgoV4Uo6kQ?view_as=subscriber"><i class="step fi-social-youtube" style="font-size:5.5em; margin-left:10px; color:white;"></i></a></div>
+            <div class="col s12" style="background:yellow;"><a href="#" ><i class="step fi-social-snapchat" title="Snapchat: richarddanielmendez" style="font-size:5.5em; margin-left:10px; color:white;"></i></a></div>
+          </div>
 
-      <div class="col l12 indigo lighten-4 black-text" style="height:500px;">
+
+          </div>
+
+          <!--Imagenes de Lugares Turisticos-->
+          <div class="col s12 l11">
+            <div class="row">
+              <div class="col s12 l4">
+                  <img class="responsive-img galeria-img" src="img/chiquitania.jpg" alt="Chiquitania">
+                  <img class="responsive-img galeria-img" src="img/lomas.jpg" alt="Lomas de Arena">
+              </div>
+              <div class="col s12 l4">
+                  <img class="responsive-img galeria-img" src="img/catedral.jpg" alt="Catedral de Santa Cruz" style="min-height:450px;">
+              </div>
+              <div class="col s12 l4">
+                  <img class="responsive-img galeria-img" src="img/pantanal.jpg" alt="Pantanal">
+                  <img class="responsive-img galeria-img" src="img/chochis.jpg" alt="Chochis">
+              </div>
+            </div>
+          </div>
 
 
+    </div>
+    <div class="row"></div>
+    <!--ARTICULOS DEL BLOG-->
+    <div class="row">
+      <div class="col s12 l9">
+        <div class="card large">
+          <div class="card-content black-text">
+            <img class="img-articulo" src="img/catedral.jpg" alt="Catedral Basilica de San Lorenzo">
+            <span class="card-title">Catedral Basilica de San Lorenzo</span>
+            <div class="chip">Santa Cruz de la Sierra<i class="material-icons text-center">location_on</i></div>
+            <div class="chip">10/12/2019<i class="material-icons">event</i></div>
+            <p class="flow-text">
+              La gran Catedral de San Lorenzo, una de las mayores atracciones turisticas de <strong>Santa Cruz de la Sierra</strong>, cuando estuve de viaje de fin de año por Santa Cruz mucho de mis amigos <em>"cambas"</em> me comentaban
+              que si o si debia conocer una de las grandes iglesias que tenia la ciudad. Practicamente me decian:
+              <strong><em>"¡NUNCA VINISTE A SANTA CRUZ, SI NO VAS A CONOCERLA!"</em></strong>.
+              <br>
+              Para que me reia por la presion, pero valio la pena. Exactamente la Catedral queda en pleno corazon de Santa Cruz
+              en la plaza 24 de Septiembre, donde se ve harto movimiento en el transcurso del dia. Aun mas movimiento hay por las noches del cielo cruceño. Preparense que le gustara ir como a mi me encanto.
+            </p>
+        </div>
+        </div>
+
+        <!--COMENTARIOS-->
+        <div class="card medium blue darken-2">
+          <div class="card-content white-text">
+            <span class="card-title">Deja tu Comentario:</span>
+
+            <div class="row">
+              <div class="input-field col s12 l6">
+                <i class="material-icons prefix">perm_identity</i>
+                <input id="nombre" type="text" class="validate">
+                <label for="nombre">Nombre y Apellidos</label>
+              </div>
+              <div class="input-field col s12 l6">
+                <i class="material-icons prefix">email</i>
+                <input id="email" type="email" class="validate">
+                <label for="email" data-sucess="Correcto" data-error="Debes completar este campo">E-mail</label>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="input-field col s12 l12">
+                <i class="material-icons prefix">create</i>
+                <textarea id="comentario" class="materialize-textarea"></textarea>
+                <label for="texto">Comentario</label>
+              <div class="input-field col push-l2 s4 l4 right">
+                <button class="btn waves-effect waves-light" type="submit" name="action">ENVIAR<i class="material-icons right">send</i></button>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+
+    <!--ARTICULO DEL BLOG-->
+
+    <div class="card large hide-on-small-only">
+      <div class="card-content black-text">
+        <img class="img-articulo" src="img/chochis.jpg" alt="Chochis">
+        <span class="card-title">Chochis</span>
+        <div class="chip">Roboré<i class="material-icons text-center">location_on</i></div>
+        <div class="chip">9/10/2019<i class="material-icons">event</i></div>
+        <p class="flow-text">
+          Roboré, es bien conocido como <em>"La perla del Oriente"</em> a mitad de camino a la carretera a Puerto Suarez, es parte del camino de la Chiquitania. La familia de mi prometida es de este hermoso pueblo, un pueblo donde se siente el calido recibimiento de los pueblerinos. Y fue raro ver todas las calles con esa arena roja, es algo de locura caminar por esos caminos, sin mencionar como quedan tus pies.
+          <br>
+          Una de las atracciones principales de <strong>Roboré</strong> es el lugar llamado <strong>"EL SANTUARIO DE CHOCHIS"
+          </strong>, una estructura de piedra impresionante, perfectas para sacarse fotos. Ya se imaginan el sinfin de fotos que me saque ese momento que lo visite.
+        </p>
+    </div>
+    </div>
+
+    <!--COMENTARIOS-->
+    <div class="card medium blue darken-2 hide-on-small-only ">
+      <div class="card-content white-text">
+        <span class="card-title">Deja tu Comentario:</span>
+
+        <div class="row">
+          <div class="input-field col s6">
+            <i class="material-icons prefix">perm_identity</i>
+            <input id="nombre" type="text" class="validate">
+            <label for="nombre">Nombre y Apellidos</label>
+          </div>
+          <div class="input-field col s6">
+            <i class="material-icons prefix">email</i>
+            <input id="email" type="email" class="validate">
+            <label for="email" data-sucess="Correcto" data-error="Debes completar este campo">E-mail</label>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="input-field col s12">
+            <i class="material-icons prefix">create</i>
+            <textarea id="comentario" class="materialize-textarea"></textarea>
+            <label for="texto">Comentario</label>
+          <div class="input-field col push-s2 s4 right">
+            <button class="btn waves-effect waves-light" type="submit" name="action">ENVIAR<i class="material-icons right">send</i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
     </div>
 
 
+
+    <div class="col s12 l3 card center">
+      <img class="img-responsive circle" src="img/perfil.jpg" alt="Bloguero Richard" style="margin: 10px; width:65%;">
+      <div class="card-content">
+        <span class="card-title" style="border-bottom: 4px solid grey;">Richard Mendez Oblitas</span>
+        <p>
+          Tengo 23 años, soy un aficionado en el tema de viajes, lugares turisticos y de las culturas. Desde muy temprano comence con esta aventura atraves del mundo. Viajo con mi prometida por todos lados, siempre fue mi sueño. Estudie <em>Ing. Redes y Telecomunicaciones</em>, una carrera que me fascina muchisimo. Mis hobbys favoritos es jugar futbol, videojuegos y programar.
+        </p>
+      </div>
+    </div>
+  </div>
+  </div>
 
 
 
