@@ -5,11 +5,18 @@
   background-position: center;
 }
 #logo{
-  width: 100%;
+  width: 80%;
   margin-top: 80px;
   margin-left: 60px;
-  height:230px;
+  height:180px;
 }
 .navegacion{
   margin-top: 17px;
+}
+.galeria-img{
+  width: 100%;
+}
+.img-articulo{
+  width: 30%;
+  float: left;
 }
